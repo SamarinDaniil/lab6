@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Lab6.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.Lab6.AppWidgetContainer">
+
+    <TextView
+        android:id="@+id/textWidget"
+        android:layout_width="324dp"
+        android:layout_height="45dp" />
+
+    <TextView
+        android:id="@+id/text_update"
+        android:layout_width="213dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/textWidget"
+        android:layout_marginTop="54dp"
+        android:text="Update" />
+
+</RelativeLayout>
